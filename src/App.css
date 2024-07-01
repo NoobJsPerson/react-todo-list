@@ -7,9 +7,16 @@ input {
 }
 
 .task {
-	display: block;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 	border: 1px solid grey;
 	margin-top: 10px;
 	margin-right: 10px;
 	padding-left: 10px;
+}
+
+.delete-button {
+	height: 20%;
+	margin-right: 10px;
 }
