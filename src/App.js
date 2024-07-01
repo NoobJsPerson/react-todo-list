@@ -34,9 +34,9 @@ function App() {
 
 	function handleClick() {
 		const input = document.getElementById("task-input");
+		if(!input.value) return;
 		const newTaskList = [...taskList, {description: input.value, id: taskList.length}];
 		setTaskList(newTaskList);
-
 	}
 
 	return (
