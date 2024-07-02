@@ -8,15 +8,26 @@ input {
 
 .task {
 	display: flex;
-	justify-content: space-between;
 	align-items: center;
+	gap: 10px;
 	border: 1px solid grey;
 	margin-top: 10px;
 	margin-right: 10px;
 	padding-left: 10px;
 }
 
-.delete-button {
+.subtask {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+}
+
+.delete-btn {
 	height: 20%;
 	margin-right: 10px;
+}
+
+.move-btn {
+	display: block;
 }
