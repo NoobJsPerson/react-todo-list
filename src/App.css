@@ -11,9 +11,12 @@ input {
 	align-items: center;
 	gap: 10px;
 	border: 1px solid grey;
+	border-radius: 20px;
 	margin-top: 10px;
 	margin-right: 10px;
-	padding-left: 10px;
+	padding-left: 20px;
+	padding-right: 10px;
+	box-shadow: 5px 5px 5px gray;
 }
 
 .subtask {
